@@ -16,6 +16,7 @@ gem 'twitter-bootstrap-rails'
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'faker'
 end
 group :test do
   gem 'database_cleaner', '1.0.1'
