@@ -12,7 +12,5 @@ class User < ActiveRecord::Base
 
   validates_presence_of :password, :password_confirmation, :first_name, :last_name
 
-  def full_name
-    "#{first_name} #{last_name}".strip
-  end
+
 end
