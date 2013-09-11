@@ -14,4 +14,8 @@ class Book < ActiveRecord::Base
     price*0.75
   end
 
+  def self.my_count
+    Book.count
+  end
+
 end
